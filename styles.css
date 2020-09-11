@@ -3,23 +3,16 @@ body{
     padding: 0;
     background : rgb(131, 194, 116);
     height: 2000px;
+    background:url(img/bg.png);
 }
 
 .container{
 position: relative;
 width: 100%;
 height: 768px;
+overflow: hidden; 
 }
 
-.container .bg{
-    height: 100%;
-    width: 100%;
-position: absolute;
-left:0;
-top:0;
-background:url(img/bg.png);
-background-size: cover;
-}
 
 .container .bg2{
     height: 100%;

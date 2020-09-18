@@ -123,3 +123,41 @@ font-size: 60px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  @font-face {
+    font-family: berlin;
+    src: url(font/berlin.TTF);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'berlin';
+  }
+  
+  li {
+    float: right;
+  }
+  
+ .left{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }

@@ -102,6 +102,70 @@ background:url(img/sun.png);
 background-size: cover;
 }
 
+.rightbook{
+  height: 450px;
+  width: 350px;
+  position: absolute;
+top: 700px;
+right: 100px;
+
+}
+.container .rightbook .leaf1{
+  height: 100px;
+  width: 100px;
+  left:10px;
+position: absolute;
+background:url(img/leaf1.png);
+background-size: cover;
+}
+
+.container .rightbook .leaf2{
+  height: 100px;
+  width: 100px;
+  left:70px;
+position: absolute;
+background:url(img/leaf2.png);
+background-size: cover;
+}
+
+.container .rightbook .leaf3{
+  height: 100px;
+  width: 100px;
+  left:240px;
+position: absolute;
+background:url(img/leaf1.png);
+background-size: cover;
+}
+
+.container .rightbook .leaf4{
+  height: 100px;
+  width: 100px;
+  left:180px;
+position: absolute;
+background:url(img/leaf2.png);
+background-size: cover;
+}
+
+.container .rightbook .leaf5{
+  height: 100px;
+  width: 100px;
+  left:140px;
+position: absolute;
+background:url(img/leaf1.png);
+background-size: cover;
+}
+
+.container .rightbook .leaf6{
+  height: 100px;
+  width: 100px;
+  left:220px;
+position: absolute;
+background:url(img/leaf2.png);
+background-size: cover;
+}
+
+
+
 [class*="col-"] {
     float: center;
   }

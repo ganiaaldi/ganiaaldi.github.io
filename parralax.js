@@ -1,6 +1,6 @@
 $(window).scroll(function(){
    var winScroll = $(this).scrollTop();
-   console.log(winScroll);
+  // console.log(winScroll);
    
 
    $('.sun').css({
@@ -22,6 +22,24 @@ $(window).scroll(function(){
       'transform': 'translate(0,'+ winScroll / 30 +'%)'
    })
    
+   $('.leaf1').css({
+      'transform': 'translate(0,'+ winScroll / 3 +'%)'
+   })
+   $('.leaf2').css({
+      'transform': 'translate(0,'+ winScroll / 3.2 +'%)'
+   })
+   $('.leaf3').css({
+      'transform': 'translate(0,'+ winScroll / 3 +'%)'
+   })
+   $('.leaf4').css({
+      'transform': 'translate(0,'+ winScroll / 4 +'%)'
+   })
+   $('.leaf5').css({
+      'transform': 'translate(0,'+ winScroll / 5.5 +'%)'
+   })
+   $('.leaf6').css({
+      'transform': 'translate(0,'+ winScroll / 6 +'%)'
+   })
    
    });
    

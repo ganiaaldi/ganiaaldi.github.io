@@ -102,6 +102,20 @@ background:url(img/sun.png);
 background-size: cover;
 }
 
+.slice .paper{
+  height: 770px;
+  width: 660px;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+background:url(img/paper.png);
+background-size: auto;
+}
+
+
 .rightbook{
   height: 450px;
   width: 350px;
@@ -203,7 +217,8 @@ background-size: cover;
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
-.text{
+
+.about{
 color: rgb(73, 71, 71);
 text-align: center;
 padding-left: 40px;
@@ -211,9 +226,40 @@ padding-right: 40px;
 padding-top: 25px;
 }
 
-.text h1{
+.about h1{
 font-size: 60px; 
+font-family: 'BERNADETTE';
+color: rgb(153, 133, 105);
 }
+
+.about h2{
+  font-size: 30px; 
+  font-family: 'AHARONI';
+  color: rgb(153, 133, 105);
+  margin-top: 190px;
+  transform: rotate(-2deg);
+  line-height: 0px;
+  }
+
+  .about h3{
+    font-size: 20px; 
+    font-family: 'AHARONI';
+    color: rgb(153, 133, 105);
+    transform: rotate(-2deg);
+    }
+
+    
+.about p{
+  font-size: 20px;
+  text-align: center; 
+  margin-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'AHARONI';
+  color: rgb(153, 133, 105);
+  transform: rotate(-1deg);
+  }
+  
 
 .btn {
     margin-top: 350px;
@@ -228,6 +274,17 @@ font-size: 60px;
     font-family: berlin;
     src: url(font/berlin.TTF);
   }
+
+  @font-face {
+    font-family: BERNADETTE;
+    src: url(font/BERNADETTE.TTF);
+  }
+
+  @font-face {
+    font-family: AHARONI;
+    src: url(font/AHRONBD.TTF);
+  }
+
   ul {
     list-style-type: none;
     margin: 0;

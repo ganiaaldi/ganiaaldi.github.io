@@ -1,8 +1,8 @@
 $(window).scroll(function(){
    var winScroll = $(this).scrollTop();
-  // console.log(winScroll);
+ //console.log(winScroll);
    
-
+   //parralax
    $('.sun').css({
       'transform': 'translate(0,'+ winScroll / 8 +'%)'
    })
@@ -41,6 +41,11 @@ $(window).scroll(function(){
       'transform': 'translate(0,'+ winScroll / 6 +'%)'
    })
    
+
+   //about
+   if(winScroll > $('.paper').offset().top - 80){
+      $('.paper').addClass('appear');
+   }
    });
    
    

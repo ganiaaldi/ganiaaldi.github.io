@@ -113,6 +113,14 @@ right: 0;
 margin: auto;
 background:url(img/paper.png);
 background-size: auto;
+opacity: 0;
+transition: .5s;
+transform: translate(0, -40px);
+}
+
+.slice .paper.appear{
+opacity: 1;
+transform: translate(0, 0);
 }
 
 

@@ -123,6 +123,27 @@ opacity: 1;
 transform: translate(0, 0);
 }
 
+.slice .education{
+  height: 100%;
+  width: 100%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+background:url(img/board.png);
+background-size: auto;
+opacity: 0;
+transition: .5s;
+transform: translate(0, -40px);
+}
+
+.slice .education.appear{
+opacity: 1;
+transform: translate(0, 0);
+}
+
 
 .rightbook{
   height: 450px;
@@ -268,6 +289,51 @@ color: rgb(153, 133, 105);
   transform: rotate(-1deg);
   }
   
+
+  .education h1{
+text-align: center;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 70px;
+    font-size: 50px; 
+    font-family: 'BERNADETTE';
+    color: rgb(153, 133, 105);
+    }
+
+    .education .unikom{
+      margin-left: 120px;
+      margin-top: 70px;
+      height: 20px;
+     width: 500px;
+    }
+
+    .education .smk{
+      margin-top: 80px;
+      margin-left: 740px;
+      width: 500px;
+    }
+
+   
+    .education h2{
+      font-size: 30px; 
+      font-family: 'AHARONI';
+      color: rgb(153, 133, 105);
+      text-decoration: underline;
+      }
+    
+      .education h3{
+        font-size: 25px; 
+        font-family: 'AHARONI';
+        color: rgb(153, 133, 105);
+        }
+    
+        
+        .education p{
+      font-size: 20px;
+      font-family: 'AHARONI';
+      color: rgb(153, 133, 105);
+      line-height: 25px;
+      }
 
 .btn {
     margin-top: 350px;

@@ -46,6 +46,10 @@ $(window).scroll(function(){
    if(winScroll > $('.paper').offset().top - 80){
       $('.paper').addClass('appear');
    }
+
+   if(winScroll > $('.education').offset().top - 80){
+      $('.education').addClass('appear');
+   }
    });
    
    

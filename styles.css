@@ -136,8 +136,8 @@ transform: translate(0, 0);
 
 .slice .education{
   flex: 100%;
-  height: 100%;
-  width: 100%;
+  height: 780px;
+  width: 1400px;
 position: absolute;
 top: 0;
 bottom: 0;
@@ -249,8 +249,24 @@ background-size: cover;
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-    .col-s-13 {width: 370%;}
-
+    .col-s-13 {width: 400%;}
+    .col-s-14 {width: 500%;}
+    .about{
+      color: rgb(73, 71, 71);
+      text-align: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 55px;
+      }
+      .education h1{
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 90px;
+            font-size: 50px; 
+            font-family: 'BERNADETTE';
+            color: rgb(153, 133, 105);
+            }
   }
   @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -267,15 +283,27 @@ background-size: cover;
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .col-13 {width: 105%;}
+
+    .about{
+      color: rgb(73, 71, 71);
+      text-align: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 25px;
+      }
+
+      .education h1{
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+            font-size: 50px; 
+            font-family: 'BERNADETTE';
+            color: rgb(153, 133, 105);
+            }
   }
 
-.about{
-color: rgb(73, 71, 71);
-text-align: center;
-padding-left: 40px;
-padding-right: 40px;
-padding-top: 25px;
-}
+
 
 .about h1{
 font-size: 60px; 
@@ -299,7 +327,7 @@ color: rgb(153, 133, 105);
     transform: rotate(-2deg);
     }
 
-    
+  
 .about p{
   font-size: 20px;
   text-align: center; 
@@ -312,15 +340,13 @@ color: rgb(153, 133, 105);
   }
   
 
-  .education h1{
-text-align: center;
-padding-left: 40px;
-padding-right: 40px;
-padding-top: 70px;
-    font-size: 50px; 
-    font-family: 'BERNADETTE';
-    color: rgb(153, 133, 105);
-    }
+  .educationer{
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 80px;
+  }
+
+
 
     .education .unikom{
       margin-left: 120px;

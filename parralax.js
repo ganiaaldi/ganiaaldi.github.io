@@ -50,6 +50,11 @@ $(window).scroll(function(){
    if(winScroll > $('.education').offset().top - 80){
       $('.education').addClass('appear');
    }
+
+   if(winScroll > $('.scrollpaper').offset().top - 80){
+      $('.paperLeft').addClass('appear');
+      $('.paperRight').addClass('appear');
+   }
    });
    
    

@@ -12,6 +12,7 @@ position: relative;
 width: 100%;
 height: 1536px;
 overflow: hidden; 
+display: flex;
 }
 
 .slice{
@@ -20,9 +21,11 @@ overflow: hidden;
   height: 800px;
   overflow: hidden; 
   margin-top: 20px;
+  display: flex;  
   }
 
   .container .book{
+    flex: 100%;
     height: 100%;
     width: 100%;
 position: absolute;
@@ -33,6 +36,7 @@ background-size: cover;
 }
 
 .container .land{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -43,6 +47,7 @@ background-size: cover;
 }
 
 .container .land2{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -53,6 +58,7 @@ background-size: cover;
 }
 
 .container .land3{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -63,6 +69,7 @@ background-size: cover;
 }
 
 .container .land4{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -73,6 +80,7 @@ background-size: cover;
 }
 
 .container .cloud1{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -83,6 +91,7 @@ background-size: cover;
 }
 
 .container .cloud2{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -93,6 +102,7 @@ background-size: cover;
 }
 
 .container .sun{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -103,6 +113,7 @@ background-size: cover;
 }
 
 .slice .paper{
+  flex: 100%;
   height: 770px;
   width: 660px;
 position: absolute;
@@ -124,6 +135,7 @@ transform: translate(0, 0);
 }
 
 .slice .education{
+  flex: 100%;
   height: 100%;
   width: 100%;
 position: absolute;
@@ -146,6 +158,7 @@ transform: translate(0, 0);
 
 
 .rightbook{
+  flex: 100%;
   height: 450px;
   width: 350px;
   position: absolute;
@@ -154,6 +167,7 @@ right: 100px;
 
 }
 .container .rightbook .leaf1{
+  flex: 100%;
   height: 100px;
   width: 100px;
   left:10px;
@@ -163,6 +177,7 @@ background-size: cover;
 }
 
 .container .rightbook .leaf2{
+  flex: 100%;
   height: 100px;
   width: 100px;
   left:70px;
@@ -172,6 +187,7 @@ background-size: cover;
 }
 
 .container .rightbook .leaf3{
+  flex: 100%;
   height: 100px;
   width: 100px;
   left:240px;
@@ -181,6 +197,7 @@ background-size: cover;
 }
 
 .container .rightbook .leaf4{
+  flex: 100%;
   height: 100px;
   width: 100px;
   left:180px;
@@ -190,6 +207,7 @@ background-size: cover;
 }
 
 .container .rightbook .leaf5{
+  flex: 100%;
   height: 100px;
   width: 100px;
   left:140px;
@@ -199,6 +217,7 @@ background-size: cover;
 }
 
 .container .rightbook .leaf6{
+  flex: 100%;
   height: 100px;
   width: 100px;
   left:220px;
@@ -230,6 +249,8 @@ background-size: cover;
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    .col-s-13 {width: 370%;}
+
   }
   @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -245,6 +266,7 @@ background-size: cover;
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .col-13 {width: 105%;}
   }
 
 .about{
@@ -335,6 +357,68 @@ padding-top: 70px;
       line-height: 25px;
       }
 
+ 
+      .scroll{
+        display: flex;
+        width: 100%;
+        height: 768px;
+      }
+
+      .scrollpaper {
+        flex: 100%;
+        width: 100%;
+        padding-left: 140px;
+        padding-right: 40px;
+        padding-top: 70px;
+      }
+
+      .paperLeft, .paperRight {
+        opacity: 0;
+        transform: translate(-50px,0);
+        transition: 2s;
+      }
+      
+      .paperRight{
+        transform: translate(50px,0);
+      }
+
+      .paperLeft.appear, .paperRight.appear{
+        opacity: 1;
+        transform: translate(0,0);
+      }
+
+     .scroll .scrollpaper h1{
+        text-align: center;
+        margin-right: 70px;
+    font-size: 40px; 
+    font-family: 'BERNADETTE';
+    color: rgb(153, 133, 105);
+      }
+
+      .scroll .scrollpaper h2{
+        font-size: 40px; 
+        font-family: 'AHARONI';
+        color: rgb(153, 133, 105);
+        text-decoration: underline;
+        line-height: 2px;
+        }
+      
+        .scroll .scrollpaper h3{
+          font-size: 20px; 
+          font-family: 'AHARONI';
+          color: rgb(153, 133, 105);
+          line-height: 2px;
+          }
+
+          .scroll .scrollpaper p{
+            font-size: 14px; 
+            font-family: 'AHARONI';
+            color: rgb(153, 133, 105);
+            line-height: 2px;
+            }
+      
+
+   
 .btn {
     margin-top: 350px;
     position: absolute;

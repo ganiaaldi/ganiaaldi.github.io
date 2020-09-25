@@ -43,15 +43,15 @@ $(window).scroll(function(){
    
 
    //about
-   if(winScroll > $('.paper').offset().top - 80){
+   if(winScroll > $('.paper').offset().top - 10){
       $('.paper').addClass('appear');
    }
 
-   if(winScroll > $('.education').offset().top - 80){
+   if(winScroll > $('.education').offset().top - 10){
       $('.education').addClass('appear');
    }
 
-   if(winScroll > $('.scrollpaper').offset().top - 80){
+   if(winScroll > $('.scrollpaper').offset().top - 10){
       $('.paperLeft').addClass('appear');
       $('.paperRight').addClass('appear');
    }

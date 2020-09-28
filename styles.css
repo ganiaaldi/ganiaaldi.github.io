@@ -6,6 +6,9 @@ body{
     height: 7500px;
 }
 
+html {
+  scroll-behavior: smooth;
+} 
 
 .container{
 position: relative;

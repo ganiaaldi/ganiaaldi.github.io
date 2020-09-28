@@ -40,6 +40,12 @@ $(window).scroll(function(){
    $('.leaf6').css({
       'transform': 'translate(0,'+ winScroll / 6 +'%)'
    })
+
+
+   var aldiScroll = $(this).scrollTop() - 4000;
+   $('.aldi').css({
+      'transform': 'translate(0,'+ aldiScroll/ 8 +'%)'
+   })
    
 
    //about

@@ -47,13 +47,27 @@ $(window).scroll(function(){
       $('.paper').addClass('appear');
    }
 
+
+   //education
    if(winScroll > $('.education').offset().top - 10){
       $('.education').addClass('appear');
    }
 
+   //certif & awards
    if(winScroll > $('.scrollpaper').offset().top - 10){
       $('.paperLeft').addClass('appear');
       $('.paperRight').addClass('appear');
+   }
+
+   //experience
+   if(winScroll > 4000){
+      $('.exptitle').addClass('appear');
+   }
+   if(winScroll > 4200){
+      $('.work1').addClass('appear');
+   }
+   if(winScroll > 4500){
+      $('.work2').addClass('appear');
    }
    });
    

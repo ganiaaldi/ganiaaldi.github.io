@@ -514,7 +514,15 @@ color: rgb(153, 133, 105);
       top:0;
       background:url(img/experiencetitle.png);
       background-size: cover;
-      }
+      opacity: 0;
+transition: .5s;
+transform: translate(0, -40px);
+}
+
+.slice .exptitle.appear{
+opacity: 1;
+transform: translate(0, 0);
+}
 
       .slice .work1{
         flex: 100%;
@@ -525,7 +533,15 @@ color: rgb(153, 133, 105);
     top:0;
     background:url(img/work1.png);
     background-size: cover;
-    }
+    opacity: 0;
+transition: .5s;
+transform: translate(0, -40px);
+}
+
+.slice .work1.appear{
+opacity: 1;
+transform: translate(0, 0);
+}
 
     .slice .work2{
       flex: 100%;
@@ -536,8 +552,15 @@ color: rgb(153, 133, 105);
   top:0;
   background:url(img/work2.png);
   background-size: cover;
-  }
+  opacity: 0;
+transition: .5s;
+transform: translate(0, -40px);
+}
 
+.slice .work2.appear{
+opacity: 1;
+transform: translate(0, 0);
+}
 .btn {
     margin-top: 350px;
     position: absolute;

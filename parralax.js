@@ -44,7 +44,7 @@ $(window).scroll(function(){
 
    var aldiScroll = $(this).scrollTop() - 4000;
    $('.aldi').css({
-      'transform': 'translate(0,'+ aldiScroll/ 8 +'%)'
+      'transform': 'translate(0,'+ aldiScroll/ 16 +'%)'
    })
    
 
@@ -75,6 +75,14 @@ $(window).scroll(function(){
    if(winScroll > 4500){
       $('.work2').addClass('appear');
    }
+
+      //skill
+      if(winScroll > 4700){
+         $('.skilltitle').addClass('appear');
+      }
+      if(winScroll > 5000){
+         $('.skillboard').addClass('appear');
+      }
    });
    
    

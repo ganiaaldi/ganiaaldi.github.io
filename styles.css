@@ -449,6 +449,16 @@ color: rgb(153, 133, 105);
           color: rgb(153, 133, 105);
             }
       
+
+            .skilltitle h1{
+              text-align: center;
+              margin-top: 920px;
+              margin-right: 100px;
+          font-size: 40px; 
+          font-family: 'BERNADETTE';
+          color: rgb(153, 133, 105);
+            }
+
             .work{
               margin-left: 630px;
               margin-top: 270px;
@@ -458,6 +468,7 @@ color: rgb(153, 133, 105);
               margin-left: 630px;
               margin-top: 585px;
             }
+
             .work h2{
               font-size: 40px; 
               font-family: 'AHARONI';
@@ -486,7 +497,33 @@ color: rgb(153, 133, 105);
                   line-height: 18px;
                   }
             
-            .slice .rope{
+                  
+                  .skilltext{
+                    margin-top: 1100px;
+                    margin-left: 650px;
+                  }
+                  .skilltext h2{
+                    font-size: 25px; 
+                    font-family: 'AHARONI';
+                    color: rgb(153, 133, 105);
+                    text-decoration: underline;
+                    line-height: 2px;
+                    
+                    }
+                  
+                    .skilltext .list {
+                      list-style-type: circle;
+                      font-size: 18px; 
+                      font-family: 'AHARONI';
+                      color: rgb(153, 133, 105);
+                    }
+
+                    .skilltext li{   
+                      display: inline;
+                        padding: 14px 16px;
+                    }
+                    
+            .rope{
               flex: 100%;
               height: 100%;
               width: 100%;
@@ -497,7 +534,18 @@ color: rgb(153, 133, 105);
           background-size: cover;
           }
 
-          .slice .aldi{
+          .rope2{
+            flex: 100%;
+            height: 100%;
+            width: 100%;
+        position: absolute;
+        left:0;
+        top:0;
+        background:url(img/rope2.png);
+        background-size: cover;
+        }
+
+          .aldi{
             flex: 100%;
             height: 100%;
             width: 100%;
@@ -508,7 +556,7 @@ color: rgb(153, 133, 105);
         background-size: cover;
         }
 
-        .slice .exptitle{
+        .exptitle{
           flex: 100%;
           height: 100%;
           width: 100%;
@@ -522,12 +570,12 @@ transition: .5s;
 transform: translate(0, -40px);
 }
 
-.slice .exptitle.appear{
+.exptitle.appear{
 opacity: 1;
 transform: translate(0, 0);
 }
 
-      .slice .work1{
+      .work1{
         flex: 100%;
         height: 100%;
         width: 100%;
@@ -541,12 +589,12 @@ transition: .5s;
 transform: translate(0, -40px);
 }
 
-.slice .work1.appear{
+.work1.appear{
 opacity: 1;
 transform: translate(0, 0);
 }
 
-    .slice .work2{
+    .work2{
       flex: 100%;
       height: 100%;
       width: 100%;
@@ -560,10 +608,49 @@ transition: .5s;
 transform: translate(0, -40px);
 }
 
-.slice .work2.appear{
+.work2.appear{
 opacity: 1;
 transform: translate(0, 0);
 }
+
+.skilltitle{
+  flex: 100%;
+  height: 100%;
+  width: 100%;
+position: absolute;
+left:0;
+top:0;
+background:url(img/skilltitle.png);
+background-size: cover;
+opacity: 0;
+transition: .5s;
+transform: translate(0, -40px);
+}
+
+.skilltitle.appear{
+opacity: 1;
+transform: translate(0, 0);
+}
+
+.skillboard{
+flex: 100%;
+height: 100%;
+width: 100%;
+position: absolute;
+left:0;
+top:0;
+background:url(img/skillboard.png);
+background-size: cover;
+opacity: 0;
+transition: .5s;
+transform: translate(0, -40px);
+}
+
+.skillboard.appear{
+opacity: 1;
+transform: translate(0, 0);
+}
+
 .btn {
     margin-top: 350px;
     position: absolute;
@@ -588,7 +675,7 @@ transform: translate(0, 0);
     src: url(font/AHRONBD.TTF);
   }
 
-  ul {
+  .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -596,11 +683,11 @@ transform: translate(0, 0);
     font-family: 'berlin';
   }
   
-  li {
+  .navbar li {
     float: right;
   }
   
- .left{
+ .navbar .left{
     float: left;
     display: block;
     color: white;
@@ -609,7 +696,7 @@ transform: translate(0, 0);
     text-decoration: none;
     font-size: 20px;
   }
-  li a {
+  .navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -618,6 +705,6 @@ transform: translate(0, 0);
     font-size: 20px;
   }
   
-  li a:hover {
+  .navbar li a:hover {
     background-color: #111;
   }

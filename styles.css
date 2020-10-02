@@ -720,3 +720,33 @@ background-size: auto;
   .navbar li a:hover {
     background-color: #111;
   }
+
+  .portoapp{
+    flex: 100%;
+    margin-top: 220px;
+    margin-left: 400px;
+    height: 150px;
+    width: 900px;
+  position: absolute;
+  background-color: aqua;
+  }
+
+  .portodesain{
+    flex: 100%;
+    margin-top: 55px;
+    margin-left: 400px;
+    height: 130px;
+    width: 900px;
+  position: absolute;
+  background-color: aqua;
+  }
+
+  .portodesain .slick-slide 
+{
+    display: none;
+    float: left;
+
+    height: 130px;
+    width: 300px;
+    min-height: 1px;
+}

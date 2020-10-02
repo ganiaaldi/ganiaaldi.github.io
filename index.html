@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width">
     <title>Portofolio Gania Aldi Darmaditya</title>
     <link rel="icon" href="img/avatar.png">
+    <link rel="stylesheet" type="text/css" href="slick\slick\slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick\slick\slick-theme.css"/>
 </head>
 <body>
     <div class="navbar">
@@ -177,12 +179,41 @@
     
         <div class="slice col-13 col-s-13" style="margin-top: 0px;">
             <div class="porto">
-                
+                <div class="portoapp">
+                        <div style="background-image: url(img/aldi.png);">1</div>
+                        <div style="background-image: url(img/aldi.png);" >2</div>
+                        <div style="background-image: url(img/aldi.png);">3</div>
+                        <div style="background-image: url(img/aldi.png);">4</div>
+                        <div style="background-image: url(img/aldi.png);">5</div>
+                        <div style="background-image: url(img/aldi.png);">6</div>
             </div>
+            <div class="portodesain">
+                <div style="background-image: url(img/aldi.png);">1</div>
+                <div style="background-image: url(img/aldi.png);" >2</div>
+                <div style="background-image: url(img/aldi.png);">3</div>
+                <div style="background-image: url(img/aldi.png);">4</div>
+                <div style="background-image: url(img/aldi.png);">5</div>
+                <div style="background-image: url(img/aldi.png);">6</div>
+    </div>
         </div>
 
     <script src="jquery-3.5.1.min.js"></script>
     <script src="parralax.js"></script>
+    <script type="text/javascript" src="slick\slick\slick.min.js"></script>
+    <script type="text/javascript">
+   $('.portoapp').slick({
+    slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2500,
+});
+$('.portodesain').slick({
+    slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2700,
+});
+    </script>
 </body>
 
 </html>

@@ -764,11 +764,13 @@ background-size: auto;
     margin-left: 50px;
     padding: 10px;
     display:block;
-    width: 500px;
+    width: 600px;
     background-color: rgb(152, 132, 104);
     border: 2px solid transparent;
     border-color: rgb(122, 105, 82);;
   }
+
+
 
   .form-group {
     margin-bottom: 1rem;
@@ -859,3 +861,13 @@ textarea.form-control {
   background-color: rgb(110, 88, 55);
   border-color: #7c401e;
 }
+
+.icon{
+  height: 70px;
+  width: 70px;
+  background-size: 70px;
+  margin: 30px 10px 0px 60px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+

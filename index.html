@@ -11,6 +11,12 @@
     <link rel="stylesheet" type="text/css" href="slick\slick\slick-theme.css"/>
 </head>
 <body>
+    <div class="preloader">
+        <div class="loading">
+          <img src="img/aldi.gif" width="181" height="157">
+          <p style="margin-left: 50px;">Please wait...</p>
+        </div>
+      </div>
     <div class="navbar" style="margin-right: 75px;">
     <ul class="col-13 col-s-14">
             <li class="left">Gania Aldi Darmaditya</li>
@@ -281,6 +287,11 @@ $('.portodesain').slick({
           $('#form-id').prepend('Your message already submitted...');
           });
         </script>
+            <script>
+                $(document).ready(function(){
+                  $(".preloader").fadeOut();
+                })
+                </script>
 </body>
 
 </html>

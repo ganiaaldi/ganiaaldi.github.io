@@ -124,7 +124,7 @@ background:url(img/sun.png);
 background-size: cover;
 }
 
-.slice .paper{
+.paper{
   flex: 100%;
   height: 770px;
   width: 660px;
@@ -136,12 +136,12 @@ right: 0;
 margin: auto;
 background:url(img/paper.png);
 background-size: auto;
-opacity: 0;
 transition: .5s;
 transform: translate(0, -40px);
+
 }
 
-.slice .paper.appear{
+.paper.appear{
 opacity: 1;
 transform: translate(0, 0);
 }
@@ -158,7 +158,6 @@ right: 0;
 margin: auto;
 background:url(img/board.png);
 background-size: auto;
-opacity: 0;
 transition: .5s;
 transform: translate(0, -40px);
 }
@@ -247,19 +246,9 @@ background-size: cover;
   [class*="col-"] {
     width: 100%;
   }
-@media only screen and (min-width: 300px) {
+
+  @media only screen and (max-width: 320px) {
     /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     .col-s-13 {width: 400%;}
     .col-s-14 {width: 500%;}
@@ -270,31 +259,220 @@ background-size: cover;
       padding-right: 40px;
       padding-top: 55px;
       }
+      
       .education h1{
         text-align: center;
         padding-left: 40px;
         padding-right: 40px;
-        padding-top: 90px;
+        padding-top: 77px;
+            font-size: 45px; 
+            font-family: 'BERNADETTE';
+            color: rgb(153, 133, 105);
+            }
+            .paperLeft, .paperRight,  .exptitle, .work1, .work2, .skilltitle,
+            .skillboard, .paper, .education{
+              opacity: 1;
+            }
+
+            .work{
+              margin-left: 635px;
+              margin-top: 265px;
+            }
+
+            .work2 .work{
+              margin-left: 635px;
+              margin-top: 560px;
+            }
+
+            .skilltitle h4{
+              text-align: center;
+              margin-top: 880px;
+              margin-right: 100px;
+          font-size: 40px; 
+          font-family: 'BERNADETTE';
+          color: rgb(153, 133, 105);
+            }
+            
+            .skilltext{
+              margin-top: 1050px;
+              margin-left: 650px;
+            }
+  }
+  
+@media only screen and (min-width: 325px)  and (max-width: 361px) {
+    /* For tablets: */
+    .col-s-12 {width: 100%;}
+    .col-s-13 {width: 400%;}
+    .col-s-14 {width: 500%;}
+    .about{
+      color: rgb(73, 71, 71);
+      text-align: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 55px;
+      }
+      
+      .education h1{
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 77px;
+            font-size: 45px; 
+            font-family: 'BERNADETTE';
+            color: rgb(153, 133, 105);
+            }
+            .paperLeft, .paperRight,  .exptitle, .work1, .work2, .skilltitle,
+            .skillboard, .paper, .education{
+              opacity: 1;
+            }
+
+            .work{
+              margin-left: 635px;
+              margin-top: 275px;
+            }
+
+            .work2 .work{
+              margin-left: 635px;
+              margin-top: 590px;
+            }
+
+            .skilltitle h4{
+              text-align: center;
+              margin-top: 930px;
+              margin-right: 120px;
+          font-size: 40px; 
+          font-family: 'BERNADETTE';
+          color: rgb(153, 133, 105);
+            }
+            
+            .skilltext{
+              margin-top: 1100px;
+              margin-left: 650px;
+            }
+
+  }
+
+  @media only screen and (min-width: 365px) and (max-width: 390px) {
+    /* For tablets: */
+    .col-ip-12 {width: 390%;}
+    .col-ip-13 {width: 400%;}
+    .col-ip-14 {width: 500%;}
+    
+    .about{
+      color: rgb(73, 71, 71);
+      text-align: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 55px;
+      }
+      
+      .education h1{
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 70px;
             font-size: 50px; 
             font-family: 'BERNADETTE';
             color: rgb(153, 133, 105);
             }
-
-            .exptitle, .work1, .work2,.skilltitle, .skillboard{
+            .paperLeft, .paperRight,  .exptitle, .work1, .work2, .skilltitle,
+            .skillboard, .paper, .education{
               opacity: 1;
             }
+
+            .work{
+              margin-left: 660px;
+              margin-top: 300px;
+            }
+
+            .work2 .work{
+              margin-left: 660px;
+              margin-top: 610px;
+            }
+
+            .skilltitle h4{
+              text-align: center;
+              margin-top: 960px;
+              margin-right: 100px;
+          font-size: 40px; 
+          font-family: 'BERNADETTE';
+          color: rgb(153, 133, 105);
+            }
+            
+            .skilltext{
+              margin-top: 1150px;
+              margin-left: 660px;
+            }
+
   }
+    
+  
+  @media only screen and (min-width: 400px) and (max-width: 420px) {
+    /* For tablets: */
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 350%;}
+    .col-t-12 {width: 390%;}
+    .col-t-13 {width: 400%;}
+    .col-t-14 {width: 420%;}
+    .col-t-15 {width: 475%;}
+    
+    .container{
+      height: 1800px;
+    }
+
+    .about{
+      color: rgb(73, 71, 71);
+      text-align: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 55px;
+      }
+
+    .education h1{
+      text-align: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 70px;
+          font-size: 50px; 
+          font-family: 'BERNADETTE';
+          color: rgb(153, 133, 105);
+          }
+
+          .work{
+            margin-left: 730px;
+            margin-top: 320px;
+          }
+
+          .work2 .work{
+            margin-left: 730px;
+            margin-top: 635px;
+          }
+
+
+          .skilltitle h4{
+            text-align: center;
+            margin-top: 1050px;
+              margin-right: 100px;
+        font-size: 40px; 
+        font-family: 'BERNADETTE';
+        color: rgb(153, 133, 105);
+          }
+          
+          .skilltext{
+            margin-top: 1300px;
+            margin-left: 750px;
+          }
+
+
+          .paperLeft, .paperRight,  .exptitle, .work1, .work2, .skilltitle,
+          .skillboard, .paper, .education{
+            opacity: 1;
+          }
+  }
+
+
   @media only screen and (min-width: 768px) {
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
@@ -318,8 +496,32 @@ background-size: cover;
             color: rgb(153, 133, 105);
             }
 
+            .work{
+              margin-left: 630px;
+              margin-top: 270px;
+            }
 
-            .exptitle, .work1, .work2,.skilltitle, .skillboard{
+            .work2 .work{
+              margin-left: 630px;
+              margin-top: 585px;
+            }
+
+            .skilltitle h4{
+              text-align: center;
+              margin-top: 920px;
+              margin-right: 100px;
+          font-size: 40px; 
+          font-family: 'BERNADETTE';
+          color: rgb(153, 133, 105);
+            }
+
+            .skilltext{
+              margin-top: 1100px;
+              margin-left: 650px;
+            }
+
+            .paperLeft, .paperRight,  .exptitle, .work1, .work2, .skilltitle,
+             .skillboard, .paper, .education{
               opacity: 0;
               transition: .5s;
 transform: translate(0, -40px);
@@ -416,7 +618,6 @@ color: rgb(153, 133, 105);
       }
 
       .paperLeft, .paperRight {
-        opacity: 0;
         transform: translate(-50px,0);
         transition: 2s;
       }
@@ -469,26 +670,6 @@ color: rgb(153, 133, 105);
           color: rgb(153, 133, 105);
             }
       
-
-            .skilltitle h1{
-              text-align: center;
-              margin-top: 920px;
-              margin-right: 100px;
-          font-size: 40px; 
-          font-family: 'BERNADETTE';
-          color: rgb(153, 133, 105);
-            }
-
-            .work{
-              margin-left: 630px;
-              margin-top: 270px;
-            }
-
-            .work2 .work{
-              margin-left: 630px;
-              margin-top: 585px;
-            }
-
             .work h2{
               font-size: 40px; 
               font-family: 'AHARONI';
@@ -517,11 +698,7 @@ color: rgb(153, 133, 105);
                   line-height: 18px;
                   }
             
-                  
-                  .skilltext{
-                    margin-top: 1100px;
-                    margin-left: 650px;
-                  }
+                 
                   .skilltext h2{
                     font-size: 25px; 
                     font-family: 'AHARONI';

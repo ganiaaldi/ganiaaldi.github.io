@@ -44,7 +44,7 @@ $(window).scroll(function(){
 
    var aldiScroll = $(this).scrollTop() - 4000;
    $('.aldi').css({
-      'transform': 'translate(0,'+ aldiScroll/ 16 +'%)'
+      'transform': 'translate(0,'+ aldiScroll/ 14 +'%)'
    })
    
 

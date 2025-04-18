@@ -1,0 +1,24 @@
+{
+  "data": [
+      {
+          "title": "Juara 1 Hackathon",
+          "subtitle": "2023 - Nasional",
+          "screenshots": [
+              "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+              "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+          ],
+          "technologies": ["react", "firebase"],
+          "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+      },
+      {
+        "title": "Juara 2 Hackathon",
+        "subtitle": "2023 - Nasional",
+        "screenshots": [
+            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+        ],
+        "technologies": ["react", "firebase"],
+        "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+    }
+  ]
+}

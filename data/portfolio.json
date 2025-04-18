@@ -1,0 +1,13 @@
+{
+  "data": [
+      {
+          "title": "Project 1",
+          "subtitle": "Pencatat keuangan",
+          "screenshots": [
+              "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+          ],
+          "technologies": ["vue", "nodejs"],
+          "description": "Aplikasi untuk mencatat pengeluaran dan pemasukan secara efisien dengan UI minimalis."
+      }
+  ]
+}

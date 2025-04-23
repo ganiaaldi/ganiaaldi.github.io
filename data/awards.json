@@ -3,6 +3,7 @@
       {
           "title": "Juara 1 Hackathon",
           "subtitle": "2023 - Nasional",
+          "icon" :  "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
           "screenshots": [
               "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
               "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
@@ -13,6 +14,7 @@
       {
         "title": "Juara 2 Hackathon",
         "subtitle": "2023 - Nasional",
+        "icon" :  "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
         "screenshots": [
             "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
             "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"

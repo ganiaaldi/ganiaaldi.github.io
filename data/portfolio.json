@@ -1,13 +1,77 @@
 {
   "data": [
-      {
-          "title": "Project 1",
-          "subtitle": "Pencatat keuangan",
-          "screenshots": [
-              "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
-          ],
-          "technologies": ["vue", "nodejs"],
-          "description": "Aplikasi untuk mencatat pengeluaran dan pemasukan secara efisien dengan UI minimalis."
-      }
-  ]
+    {
+        "title": "Juara 1 Hackathon",
+        "subtitle": "2023 - Nasional",
+        "icon": "/version2/assets/img/avatar.png", 
+        "screenshots": [
+            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+        ],
+        "technologies": ["/version2/assets/img/avatar.png", "firebase"],
+        "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+    },
+    {
+      "title": "Juara 2 Hackathon",
+      "subtitle": "2023 - Nasional",
+      "icon": "/version2/assets/img/avatar.png", 
+      "screenshots": [
+          "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+          "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+      ],
+      "technologies": ["/version2/assets/img/avatar.png", "firebase"],
+      "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+  },
+  {
+    "title": "Juara 2 Hackathon",
+    "subtitle": "2023 - Nasional",
+    "icon": "/version2/assets/img/avatar.png", 
+    "screenshots": [
+        "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+        "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+    ],
+    "technologies": ["/version2/assets/img/avatar.png", "firebase"],
+    "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+},{
+  "title": "Juara 2 Hackathon",
+  "subtitle": "2023 - Nasional",
+  "icon": "/version2/assets/img/avatar.png", 
+  "screenshots": [
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+  ],
+  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
+  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+},{
+  "title": "Juara 2 Hackathon",
+  "subtitle": "2023 - Nasional",
+  "icon": "/version2/assets/img/avatar.png", 
+  "screenshots": [
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+  ],
+  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
+  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+},{
+  "title": "Juara 2 Hackathon",
+  "subtitle": "2023 - Nasional",
+  "icon": "/version2/assets/img/avatar.png", 
+  "screenshots": [
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+  ],
+  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
+  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+},{
+  "title": "Juara 2 Hackathon",
+  "subtitle": "2023 - Nasional",
+   "icon": "/version2/assets/img/avatar.png", 
+  "screenshots": [
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+  ],
+  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
+  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+}
+]
 }

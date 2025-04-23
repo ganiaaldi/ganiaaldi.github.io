@@ -4,6 +4,52 @@ body {
     background: #111;
     color: #fff;
   }
+
+  #awards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    transition: flex-direction 0.3s ease; /* Animasi saat layout berubah */
+     align-items: flex-start; 
+  }
+
+  #portfolio-container, #portfolio-personal {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  .project-card .tech-icons img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+  
+
+  @media (min-width: 768px) {
+    #portfolio-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    #portfolio-personal {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #portfolio-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    #portfolio-personal {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
   
   .container {
     padding: 2rem;
@@ -48,16 +94,29 @@ body {
   }
 
   .award-card, .project-card {
-    position: relative;
-    z-index: 2;
-    pointer-events: auto; /* Pastikan area ini tetap dapat diklik */
-    background-color: #1a1a1a; /* background default */
-    transition: background-color 0.3s ease; /* Transisi halus saat berubah warna */
+    background: #1a1a1a;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative; /* Menjaga posisi card dalam flow */
+    z-index: 1;
+    max-height: 100px; 
 }
 
-/* Background abu gelap untuk card yang di-expand */
 .award-card.expanded, .project-card.expanded {
-    background-color: #333; /* Abu gelap */
+    background: #333;
+    flex-grow: 2; /* Membuat card yang diperbesar mengisi ruang lebih banyak */
+    max-height: 1000px;
+    min-width: 90%; /* Membuat card lebih lebar */
+    padding: 2rem; /* Menambah padding agar isi card terlihat lebih besar */
+}
+
+/* Ketika salah satu card expanded, ubah layout menjadi kolom */
+#awards-container.expanded {
+    flex-direction: column;
 }
 
   
@@ -65,8 +124,7 @@ body {
     background: #1a1a1a;
     border: 1px solid white;
     border-radius: 10px;
-    min-width: 48%;
-    flex: 0 0 auto;
+    flex: 1;
     padding: 1rem;
     cursor: pointer;
     position: relative;
@@ -74,15 +132,67 @@ body {
   }
   
   .project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background: #1a1a1a;
     border: 1px solid white;
     border-radius: 10px;
     width: 100%;
-    margin-bottom: 1rem;
+    aspect-ratio: 1 / 1; /* Biar bentuknya kotak */
     padding: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
   }
+
+  .project-card h3,
+.project-card .short-desc {
+  display: none; /* Sembunyikan sebelum expand */
+}
+
+
+
+.project-card.expanded {
+  grid-column: span 4; /* Biar dia bisa melebar penuh */
+  width: 100%;
+  max-height: 1000px;
+  padding: 2rem;
+  aspect-ratio: unset;
+}
+
+.project-card.expanded h3,
+.project-card.expanded .short-desc,
+.project-card.expanded .tech-icons {
+  display: block;
+}
+
+  .award-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+  }
+  
+  .circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
   
   .award-icon {
     font-size: 2rem;
@@ -113,6 +223,7 @@ body {
     display: flex;
     opacity: 1;
     transform: translateY(0);
+    max-height: 1000px;
   }
   
   
@@ -206,30 +317,7 @@ body {
     transform: translateX(-50%);
 }
 
-.minimize-btn {
-    position: absolute;
-    top: 20px;
-    right: 10px;
-    background-color: #444;
-    color: white;
-    border: none;
-    padding: 20px 25px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    border-radius: 50%;
-    display: none; /* default disembunyikan */
-  }
-  
-  .award-card.expanded .minimize-btn,
-  .project-card.expanded .minimize-btn {
-    display: block;
-  }
 
-  .minimize-btn:hover {
-    background-color: #555;
-  }
-  
-  
   ::-webkit-scrollbar {
     height: 8px;
   }

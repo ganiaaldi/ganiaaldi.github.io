@@ -1,9 +1,33 @@
+@font-face {
+  font-family: 'MangaSpeak';
+  src: url('/assets/manga_speak/manga_speak.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MangaSpeakBold';
+  src: url('/assets/manga_speak/manga_speak_bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Caviar';
+  src: url('/assets/caviar_dreams/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CaviarBold';
+  src: url('/assets/caviar_dreams/CaviarDreams_Bold.ttf') format('truetype');
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     background: #111;
     color: #fff;
   }
+
+p {
+  font-family: 'Caviar';
+}
 
   #awards-container {
     display: flex;
@@ -63,27 +87,37 @@ body {
   }
   
   .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 2px solid white;
     object-fit: cover;
   }
   
   .name {
+    font-family: 'MangaSpeakBold';
     font-size: 2rem;
     margin-top: 1rem;
+    margin-bottom: 0px;
   }
   
   .summary {
     font-size: 1rem;
     color: #ccc;
+    margin-top: 0px;
   }
   
   h2 {
     margin-top: 2rem;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid white;
     padding-bottom: 0.5rem;
+    font-family: "MangaSpeakBold";
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-family: "CaviarBold";
+    font-size: 1.5rem;
   }
   
   .award-scroll {
@@ -202,6 +236,10 @@ body {
   .award-info h3,
   .project-card h3 {
     margin: 0.2rem 0;
+  }
+
+  .award-info p {
+    margin-top: 10px;
   }
   
   .expand-section {

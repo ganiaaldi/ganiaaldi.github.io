@@ -79,7 +79,7 @@ function loadAwards() {
                             <h3>${award.title}</h3>
                             <p class="subtitle">${award.subtitle}</p>
                             <div class="tech-icons">
-                                ${award.technologies.map(tech => `<img src="icons/${tech}.png" alt="${tech}">`).join('')}
+                                ${award.technologies.map(tech => `<img src="assets/icons/${tech}.png" alt="${tech}">`).join('')}
                             </div>
                             <p>${award.description}</p>
                         </div>
@@ -104,7 +104,7 @@ function loadPortfolio() {
                 projectCard.classList.add('project-card');
 
                 projectCard.innerHTML = `
-            <div class="tech-icons main-icon">
+            <div class=" main-icon">
         <img src="${project.icon}" alt="${project.title}">
             </div>
             <h3>${project.title}</h3>
@@ -124,7 +124,7 @@ function loadPortfolio() {
                 <h3>${project.title}</h3>
                 <p class="subtitle">${project.subtitle}</p>
                 <div class="tech-icons">
-                    ${project.technologies.map(tech => `<img src="icons/${tech}.png" alt="${tech}">`).join('')}
+                    ${project.technologies.map(tech => `<img src="assets/icons/${tech}.png" alt="${tech}">`).join('')}
                 </div>
                 <p>${project.description}</p>
                 </div>
@@ -149,7 +149,7 @@ function loadPersonalPortfolio() {
                 projectCard.classList.add('project-card');
 
                 projectCard.innerHTML = `
-            <div class="tech-icons main-icon">
+            <div class="main-icon">
         <img src="${project.icon}" alt="${project.title}">
             </div>
             <h3>${project.title}</h3>
@@ -169,7 +169,7 @@ function loadPersonalPortfolio() {
                 <h3>${project.title}</h3>
                 <p class="subtitle">${project.subtitle}</p>
                 <div class="tech-icons">
-                    ${project.technologies.map(tech => `<img src="icons/${tech}.png" alt="${tech}">`).join('')}
+                    ${project.technologies.map(tech => `<img src="assets/icons/${tech}.png" alt="${tech}">`).join('')}
                 </div>
                 <p>${project.description}</p>
                 </div>

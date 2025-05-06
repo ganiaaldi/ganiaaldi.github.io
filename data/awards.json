@@ -1,26 +1,30 @@
 {
   "data": [
       {
-          "title": "Juara 1 Hackathon",
-          "subtitle": "2023 - Nasional",
-          "icon" :  "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+          "title": "IBM Indonesia",
+          "subtitle": "2020 - IBM New Collar and Skills Accelerator Center Developer Challenge: “Accelerating Digital Reinvention",
+          "icon" :  "../assets/icons/ibm.jpg",
           "screenshots": [
-              "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-              "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+              "../../version2/assets/img/porto/apps/full/akangbantur/1.png",
+              "../../version2/assets/img/porto/apps/full/akangbantur/2.png",
+              "../../version2/assets/img/porto/apps/full/akangbantur/3.png",
+              "../../version2/assets/img/porto/apps/full/akangbantur/4.png",
+              "../../version2/assets/img/porto/apps/full/akangbantur/5.png"
           ],
-          "technologies": ["react", "firebase"],
-          "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+          "technologies": ["kotlin", "java"],
+          "description": "Akang Bantur is a virtual chatbot application designed to serve as a vacation guide for the city of Bandung.<br><br><br> Developed for the Android platform using Kotlin and Java, the app features a user interface implemented with XML. It leverages IBM Watson Assistant for chatbot functionalities and incorporates libraries such as Glide and Circle Image View.<br><br> Released in November 2020, Akang Bantur provides users with information and recommendations about tourist attractions in Bandung, catering to both local residents and visitors. The application aims to enhance the travel experience by offering insights into various destinations within the city. The demo project achieved recognition by winning the IBM New Collar and Skills Accelerator Center Developer Challenge: “Accelerating Digital Reinvention” Competition.<br><br> Although the app is still under development and not yet publicly available, it represents a significant step towards integrating technology with tourism in Bandung."
       },
       {
-        "title": "Juara 2 Hackathon",
-        "subtitle": "2023 - Nasional",
-        "icon" :  "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
+        "title": "Indosat Ooredo IDCamp",
+        "subtitle": "2019 - IDCamp Android Developer Challenge : Aplikasi Liburan Akhir Tahun",
+        "icon" :  "../assets/icons/idcamp.png",
         "screenshots": [
-            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+            "../../version2/assets/img/porto/apps/full/liboorean/1.png",
+            "../../version2/assets/img/porto/apps/full/liboorean/3.png",
+            "../../version2/assets/img/porto/apps/full/liboorean/5.png"
         ],
-        "technologies": ["react", "firebase"],
-        "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+        "technologies": ["kotlin"],
+        "description": "Liboorean is an Android application designed to provide comprehensive information on tourist destinations, accommodations, and culinary spots across Indonesia.<br><br>Developed using Kotlin for the Android platform, the app's user interface is implemented with XML, while the backend utilizes PHP and a MySQL database. Additional libraries such as Glide and Fast Android Networking are incorporated to enhance functionality.<br><br>Released in December 2020, Liboorean aims to assist tourists in exploring various attractions throughout Indonesia. The application was recognized for its innovation by winning the IDCamp Android Developer Challenge in the `Aplikasi Liburan Akhir Tahun` category. Currently, Liboorean is still under development and has not yet been released to the public."
     }
   ]
 }

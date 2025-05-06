@@ -1,77 +1,113 @@
 {
   "data": [
     {
-        "title": "Juara 1 Hackathon",
-        "subtitle": "2023 - Nasional",
-        "icon": "/version2/assets/img/avatar.png", 
+        "title": "Chicon",
+        "subtitle": "2021 - Chicon is an application to customize an avatar icon for you.",
+        "icon" :  "../assets/icons/chicon.png",
         "screenshots": [
-            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-            "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+            "../../version2/assets/img/porto/apps/full/chicon/splash.png",
+            "../../version2/assets/img/porto/apps/full/chicon/chicon01.jpg",
+            "../../version2/assets/img/porto/apps/full/chicon/chicon02.jpg",
+            "../../version2/assets/img/porto/apps/full/chicon/chicon03.jpg"
         ],
-        "technologies": ["/version2/assets/img/avatar.png", "firebase"],
-        "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+        "technologies": ["kotlin"],
+        "description": "Chicon is an Android application that enables users to create personalized avatar icons with over 500 customizable combinations. Developed using Kotlin, all digital illustrations within the app are original creations by the developer. <br><br>Released in June 2021, Chicon offers a user-friendly interface designed for casual and trendy styles. Users can customize various features, including hair, eyes, ears, clothing, and accessories, allowing them to craft characters resembling anime, cartoons, elves, and more.<br>The application is available on the Google Play Store but now already take out for non update."
     },
     {
-      "title": "Juara 2 Hackathon",
-      "subtitle": "2023 - Nasional",
-      "icon": "/version2/assets/img/avatar.png", 
+      "title": "Senja",
+      "subtitle": "2019 - Personal Chatbot Assistang",
+      "icon" :  "../assets/icons/senja.png",
       "screenshots": [
-          "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-          "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+          "../../version2/assets/img/porto/apps/full/senja/1.png",
+          "../../version2/assets/img/porto/apps/full/senja/2.png",
+          "../../version2/assets/img/porto/apps/full/senja/3.png",
+          "../../version2/assets/img/porto/apps/full/senja/4.png",
+          "../../version2/assets/img/porto/apps/full/senja/5.png",
+          "../../version2/assets/img/porto/apps/full/senja/6.png"
       ],
-      "technologies": ["/version2/assets/img/avatar.png", "firebase"],
-      "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
-  },
+      "technologies": ["kotlin","java"],
+      "description": "Senja is an Android-based personal assistant chatbot application developed using Kotlin and Java, with its user interface implemented in XML. The app integrates IBM Watson Assistant to provide automated chat services, and it utilizes SQLite for local data storage. Additional libraries such as Glide and Circle Image View are incorporated to enhance functionality and user experience. <br><br>Released in December 2020, Senja was submitted to the IBM New Collar and Skills Accelerator Center Developer Challenge: “Accelerating Digital Reinvention” Competition. Although the application is still under development and not yet publicly available, it showcases a commitment to leveraging AI technology to create engaging user experiences.<br> The chatbot features a virtual assistant named `Senja`, designed to appeal to millennials and young users by providing interesting information and facts. The project reflects an innovative approach to personal assistant applications, aiming to combine functionality with engaging content for its target audience"},
   {
-    "title": "Juara 2 Hackathon",
-    "subtitle": "2023 - Nasional",
-    "icon": "/version2/assets/img/avatar.png", 
+    "title": "KeBandung",
+    "subtitle": "2020 - Publish for submission Kemenparekraf/Baparekraf Digital Challenge - `Ciptakan Solusi untuk Indonesia yang Lebih Baik` Competition.",
+    "icon" :  "../assets/icons/kebandung.png",
     "screenshots": [
-        "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-        "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+        "../../version2/assets/img/porto/apps/full/kebandung/1.png",
+        "../../version2/assets/img/porto/apps/full/kebandung/2.png",
+        "../../version2/assets/img/porto/apps/full/kebandung/3.png",
+        "../../version2/assets/img/porto/apps/full/kebandung/4.png",
+        "../../version2/assets/img/porto/apps/full/kebandung/5.png",
+        "../../version2/assets/img/porto/apps/full/kebandung/6.png"
     ],
-    "technologies": ["/version2/assets/img/avatar.png", "firebase"],
-    "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
-},{
-  "title": "Juara 2 Hackathon",
-  "subtitle": "2023 - Nasional",
-  "icon": "/version2/assets/img/avatar.png", 
+    "technologies": ["kotlin","php","mysql"],
+    "description": "KeBandung is an Android-based application developed to assist tourists in planning vacations to Bandung. The app serves as a digital information medium, providing details on tourism spots, lodging, and culinary locations within the city. Users have the ability to add their own favorite places, enhancing the app's content and fostering a community-driven platform.<br><br>Developed using Kotlin for the Android platform, KeBandung's user interface is implemented with XML. The backend utilizes PHP and a MySQL database, and the app incorporates libraries such as Glide, Fast Android Networking, SDP, and SSP to enhance functionality. <br>The project was submitted in October 2020 for the Kemenparekraf/Baparekraf Digital Challenge under the theme `Ciptakan Solusi untuk Indonesia yang Lebih Baik`` (`Create Solutions for a Better Indonesia``). Although still under development and not yet publicly released, KeBandung reflects a commitment to improving tourism experiences through technology."
+},
+{
+  "title": "Habitat Hewan",
+  "subtitle": "2020 - Publish for submission IDCamp 2020 Developer Challenge: `Mengubah Dunia Melalui Inovasi Teknologi` Competition.",
+  "icon" :  "../assets/icons/habitathewan.png",
   "screenshots": [
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+      "../../version2/assets/img/porto/apps/full/habitathewan/1.png",
+      "../../version2/assets/img/porto/apps/full/habitathewan/2.png"
   ],
-  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
-  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
-},{
-  "title": "Juara 2 Hackathon",
-  "subtitle": "2023 - Nasional",
-  "icon": "/version2/assets/img/avatar.png", 
+  "technologies": ["cs"],
+  "description": "Habitat Hewan is an Android application developed using Unity and C# that provides educational content about animals and their natural habitats. The app classifies animals into two categories: those that can be domesticated and wild animals. Its primary goal is to offer early childhood education by introducing children to various animals and their environments, thereby preparing them for formal schooling.<br><br>Released in August 2020, Habitat Hewan was submitted to the IDCamp 2020 Developer Challenge under the theme `Mengubah Dunia Melalui Inovasi Teknologi` (`Changing the World Through Technological Innovation`). Although the application is still under development and not yet publicly available, it reflects a commitment to enhancing early education through interactive technology."
+},
+{
+  "title": "Akang Bantur",
+  "subtitle": "2020 - Demo application for IBM New Collar and Skills Accelerator Center Developer Challenge: “Accelerating Digital Reinvention",
+  "icon" :  "../assets/icons/akangbantur.png",
   "screenshots": [
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+      "../../version2/assets/img/porto/apps/full/akangbantur/1.png",
+      "../../version2/assets/img/porto/apps/full/akangbantur/2.png",
+      "../../version2/assets/img/porto/apps/full/akangbantur/3.png",
+      "../../version2/assets/img/porto/apps/full/akangbantur/4.png",
+      "../../version2/assets/img/porto/apps/full/akangbantur/5.png"
   ],
-  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
-  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
-},{
-  "title": "Juara 2 Hackathon",
-  "subtitle": "2023 - Nasional",
-  "icon": "/version2/assets/img/avatar.png", 
+  "technologies": ["kotlin", "java"],
+  "description": "Akang Bantur is a virtual chatbot application designed to serve as a vacation guide for the city of Bandung.<br><br><br> Developed for the Android platform using Kotlin and Java, the app features a user interface implemented with XML. It leverages IBM Watson Assistant for chatbot functionalities and incorporates libraries such as Glide and Circle Image View.<br><br> Released in November 2020, Akang Bantur provides users with information and recommendations about tourist attractions in Bandung, catering to both local residents and visitors. The application aims to enhance the travel experience by offering insights into various destinations within the city. The demo project achieved recognition by winning the IBM New Collar and Skills Accelerator Center Developer Challenge: “Accelerating Digital Reinvention” Competition.<br><br> Although the app is still under development and not yet publicly available, it represents a significant step towards integrating technology with tourism in Bandung."
+},
+{
+  "title": "Berpetualang Bersama Kecemasan",
+  "subtitle": "2020 - Translation Collaboration project with originally project by ncase.",
+  "icon" :  "../assets/icons/anxiety.png",
   "screenshots": [
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+      "../../version2/assets/img/porto/apps/full/anxiety/1.png",
+      "../../version2/assets/img/porto/apps/full/anxiety/2.png",
+      "../../version2/assets/img/porto/apps/full/anxiety/3.png",
+      "../../version2/assets/img/porto/apps/full/anxiety/4.png",
+      "../../version2/assets/img/porto/apps/full/anxiety/5.png"
   ],
-  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
-  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
-},{
-  "title": "Juara 2 Hackathon",
-  "subtitle": "2023 - Nasional",
-   "icon": "/version2/assets/img/avatar.png", 
+  "technologies": ["typescript"],
+  "description": "Berpetualang Bersama Kecemasan, originally titled Adventures with Anxiety, is an open-source interactive story developed by Nicky Case & Monplaisir. The project is designed to assist individuals dealing with anxiety disorders by providing an engaging narrative experience. <br><br>The story features a girl and her wolf companion, guiding users through various scenarios that explore the nature of anxiety. With multiple branching paths, the interactive format allows users to make choices that influence the storyline, offering a personalized journey through the challenges and coping mechanisms associated with anxiety. <br><br>This project is accessible online and aims to serve as a therapeutic tool, helping users understand and manage their anxiety through storytelling."
+},
+{
+  "title": "Library Information System Website",
+  "subtitle": "2020 - Application for final college thesis",
+  "icon" :  "../assets/icons/sipuswb.png",
   "screenshots": [
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg",
-      "https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg"
+      "../../version2/assets/img/porto/apps/full/sipuswb/1.png",
+      "../../version2/assets/img/porto/apps/full/sipuswb/2.png",
+      "../../version2/assets/img/porto/apps/full/sipuswb/3.png",
+      "../../version2/assets/img/porto/apps/full/sipuswb/4.png",
+      "../../version2/assets/img/porto/apps/full/sipuswb/5.png",
+      "../../version2/assets/img/porto/apps/full/sipuswb/6.png",
+      "../../version2/assets/img/porto/apps/full/sipuswb/7.png"
   ],
-  "technologies": ["/version2/assets/img/avatar.png", "firebase"],
-  "description": "Aplikasi kolaboratif realtime yang dibuat dalam waktu 48 jam."
+  "technologies": ["php","mysql","html","css","javascript", "bootstrap"],
+  "description": "Sipus WB is a web-based Library Information System designed to assist library staff in managing library data efficiently and to facilitate the book borrowing process for students.<br>The system helps streamline the day-to-day operations of a library by providing a digital platform that enhances organization and accessibility of information.<br><br>The project was completed in August 2020 and was developed using PHP for the backend and MySQL as the database system. The frontend was built using standard web technologies including HTML, CSS, and JavaScript, with Bootstrap employed for responsive design. The development process followed a structured waterfall methodology. To support the system's design and functionality, various modeling tools were used, including flowmaps, context diagrams, data flow diagrams (DFDs), data dictionaries, and detailed database design. These tools ensured that the system met both functional and technical requirements.<br><br>Overall, Sipus WB represents a practical solution for improving library services, especially in educational institutions, by leveraging technology to simplify and digitize key operations."
+},
+{
+  "title": "Liboorean",
+  "subtitle": "2019 - Demo Application for IDCamp Android Developer Challenge : Aplikasi Liburan Akhir Tahun",
+  "icon" :  "../assets/icons/liboorean.png",
+  "screenshots": [
+      "../../version2/assets/img/porto/apps/full/liboorean/1.png",
+      "../../version2/assets/img/porto/apps/full/liboorean/3.png",
+      "../../version2/assets/img/porto/apps/full/liboorean/5.png"
+  ],
+  "technologies": ["kotlin"],
+  "description": "Liboorean is an Android application designed to provide comprehensive information on tourist destinations, accommodations, and culinary spots across Indonesia.<br><br>Developed using Kotlin for the Android platform, the app's user interface is implemented with XML, while the backend utilizes PHP and a MySQL database. Additional libraries such as Glide and Fast Android Networking are incorporated to enhance functionality.<br><br>Released in December 2020, Liboorean aims to assist tourists in exploring various attractions throughout Indonesia. The application was recognized for its innovation by winning the IDCamp Android Developer Challenge in the `Aplikasi Liburan Akhir Tahun` category. Currently, Liboorean is still under development and has not yet been released to the public."
 }
-]
+  ]
 }
